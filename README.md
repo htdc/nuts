@@ -19,7 +19,6 @@ It uses GitHub as a backend to store assets, and it can easily be deployed to He
     - `/download/:version/:os`
     - `/download/channel/:channel`
     - `/download/channel/:channel/:os`
-    - `/download/channel/:channel/:os/:version`
 - :sparkles: Support pre-release channels (`beta`, `alpha`, ...)
 - :sparkles: Auto-updates with [Squirrel](https://github.com/Squirrel)
     - For Mac using `/update?version=<x.x.x>&platform=osx`
